@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import HeatMap from './HeatMap.js';
+import "leaflet/dist/leaflet.css";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Update
-        </p>
+        <HeatMap />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,6 +17,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <div id="map"></div>
+
     </div>
   );
 }

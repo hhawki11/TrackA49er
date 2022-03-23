@@ -1,0 +1,271 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Atkins",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73240458965302,
+          35.305809792200535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Barnard",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73004424571991,
+          35.305805414411566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Belk Hall",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7354998588562,
+          35.31034505432665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Bioinformatics",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74192643165588,
+          35.312647609400514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Burson",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73238849639893,
+          35.307473334861726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Cameron",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73122978210449,
+          35.30765719800392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Cato",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72877287864685,
+          35.30544643490973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Cedar",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72897404432297,
+          35.30958554697531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Cafeteria Activities Building",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72824984788895,
+          35.30907774557536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Center for Counseling and Psychological Services",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73006302118301,
+          35.31022467179265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "College of Education",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73410511016844,
+          35.30757183302557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "College of Health and Human Services",
+        "count": "7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73331385850906,
+          35.307357325759384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Colvard North",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73176622390747,
+          35.30506118684319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Colvard South",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73170989751816,
+          35.304605891308604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Cone",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73318779468536,
+          35.305332611808275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "CRI Deck",
+        "count": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74343115091322,
+          35.30916967537546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Denny",
+        "count": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72984576225281,
+          35.30538076775536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Duke",
+        "count": "6"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74112713336945,
+          35.31194721935638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "EPIC",
+        "count": "14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74162065982819,
+          35.30907555676933
+        ]
+      }
+    }
+  ]
+}
