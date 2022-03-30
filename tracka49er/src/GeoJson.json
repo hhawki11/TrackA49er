@@ -266,6 +266,555 @@
           35.30907555676933
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Facilities Management & Police",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73042780160904,
+          35.31197348409246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Fieldhouse",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72320997714996,
+          35.31343991832692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Foundation",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73687851428986,
+          35.29795127959552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Fretwell",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72909474372864,
+          35.30608121465418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Friday",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73002278804779,
+          35.306317614113794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Gage Admissions Center",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73295176029205,
+          35.30108164208981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Garinger",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73004692792892,
+          35.30498895262648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Grigg",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74201226234436,
+          35.311119875803556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Halton Wagner Tennis Complex",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73672831058502,
+          35.30732887067113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Harris Alumni Center",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7386863231659,
+          35.302754037875694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Hickory",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72899281978607,
+          35.30922439544496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Hunt Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73650300502777,
+          35.30155446953405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Irwin Belk Track Complex",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73724061250687,
+          35.30549459078906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Jerry Richardson Stadium",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74014544487,
+          35.310555176138585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Kennedy",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73096692562103,
+          35.30597177022599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "King",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73255479335785,
+          35.30506118684319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Levine Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73303759098052,
+          35.302902888181436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Lynch Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73371350765228,
+          35.31019621771299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Martin Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72737276554108,
+          35.3101699523998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Memorial Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73584318161011,
+          35.30375658317563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Miltimore Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73506534099579,
+          35.311273088211045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Motorsports Research (MSII)",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74031710624695,
+          35.31263885456239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "PORTAL",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.74298322200775,
+          35.311649551751124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Prospector",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73089718818665,
+          35.306821055105495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Receiving & Stores",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73381543159485,
+          35.314354784724955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Reese",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7325279712677,
+          35.304632158428305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Robert & Miriam Hayes Stadium",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73960363864897,
+          35.3086159061894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Robinson Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72997450828551,
+          35.3037872284695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Rowe",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7308167219162,
+          35.30448331130385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Scott Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73529064655304,
+          35.30172083408884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Smith",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73150873184204,
+          35.30686483243498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Storrs",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72918593883514,
+          35.304605891308604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "South Village Crossing",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73485612869263,
+          35.30287224255264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Student Health Center",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7296097278595,
+          35.31056830873369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Student Union",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73370277881622,
+          35.30864654964265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Sycamore",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.72901964187622,
+          35.30887856398345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Union Deck",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7354998588562,
+          35.30921564023631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "University Recreation Center",
+        "count": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73539257049559,
+          35.308270072126554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Wallis Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73376178741454,
+          35.31151384997934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Winningham",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73043048381805,
+          35.30509183164291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Witherspoon Hall",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73236167430878,
+          35.310905377945524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "device": "Woodward",
+        "count": "3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.73571443557739,
+          35.30727633817422
+        ]
+      }
     }
   ]
 }
