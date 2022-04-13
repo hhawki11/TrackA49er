@@ -1,48 +1,154 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 1vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.leaflet-container{
-  width: 100vw;
-  height: 100vh;
+.leaflet-container {
+    width: auto;
+    height: 75vh;
 }
 
 #button1 {
-  float: left;
-  color:black;
+    float: left;
+    color: black;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #046A48;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0, 0, 0.22);
+}
+
+    ul .pages {
+        float: right;
+    }
+
+    ul .logo {
+        float: left;
+    }
+
+
+    ul li .pages {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul li .logo {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+/* Change the link color to #111 (black) on hover */
+li .pages:hover {
+    background-color: #b3a369;
+}
+
+label {
+    display: inline-block;
+    color: white;
+    margin-top: 120px;
+}
+
+
+select {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    height: 20px;
+    width: 130px;
+}
+
+    select option {
+        border: none;
+        outline: none;
+    }
+
+.side-panel {
+    float: left;
+    background-color: #046A48;
+    width: 10vw;
+    height: 75vh;
+    overflow: hidden;
+}
+
+
+    .side-panel input {
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        width: 130px;
+        height: 20px;
+    }
+
+    .side-panel button {
+        width: 60px;
+        height: 30px;
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        background-color: #b3a369;
+        margin-top: 150px;
+        color: white
+    }
+
+.main-div {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0, 0, 0.22);
+    border-radius: 2px;
+    background-color: #b3a369;
+    overflow: hidden;
+    text-align: center;
+}
+
+    .main-div h3 {
+        color: white;
+        background-color: none;
+        margin: auto;
+    }
