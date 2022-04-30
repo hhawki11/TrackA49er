@@ -152,3 +152,50 @@ select {
         background-color: none;
         margin: auto;
     }
+
+.plain-div {
+    margin: auto;
+    text-align: center;
+    color: #333;
+}
+
+.top-3-card {
+    margin: auto;
+    margin-right: 1vw;
+    padding: 30px;
+    background: #046A48;
+    width: 20vw;
+    height: 60vh;
+    color: white;
+    font-size: 48px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0, 0, 0.22);
+    border-radius: 2px;
+}
+
+    .top-3-card .count {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-bottom: 70px;
+        height: auto;
+        width: auto;
+        font-size: 150px;
+    }
+
+    .top-3-card .device {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+        height: 75px;
+        width: auto;
+        font-size: 32px;
+        padding: 5px;
+    }
+
+    .top-3-card p{
+        font-size: 24px;
+        display: block;
+    }
