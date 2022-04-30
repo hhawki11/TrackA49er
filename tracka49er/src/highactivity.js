@@ -1,7 +1,7 @@
 import React from 'react';
 import locdata from './GeoJson.json';
 
-const data = locdata.features; // replace this with the data you get from the get request
+const data = locdata.features; // replace with data you get from get request, this is used below as a placeholder
 
 function HighActivity() {
     return (

@@ -48,6 +48,8 @@
     color: black;
 }
 
+
+/*navbar styling*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -83,7 +85,7 @@ ul {
         text-decoration: none;
     }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to niner gold on hover */
 li .pages:hover {
     background-color: #b3a369;
 }
@@ -108,6 +110,7 @@ select {
         outline: none;
     }
 
+/*styling for the heatmap left side panel*/
 .side-panel {
     float: left;
     background-color: #046A48;
@@ -159,6 +162,7 @@ select {
     color: #333;
 }
 
+/*card for top 3 low or high places*/
 .top-3-card {
     margin: auto;
     margin-right: 1vw;
