@@ -4,6 +4,24 @@ import locdata from './GeoJson.json';
 const data = locdata.features; // replace with data you get from get request, this is used below as a placeholder
 
 function HighActivity() {
+    //gets top 3 valuse from data
+    let fi = 0; //first index
+    let si = 0; //second index
+    let ti = 0; //third index
+        for (let x = 0; x < data.length; x++) {
+            //console.log(response);
+            if (Number(data[x].properties.count) > Number(data[fi].properties.count)) {
+                ti = si;
+                si = fi;
+                fi = x;
+            } else if (Number(data[x].properties.count) > Number(data[si].properties.count)) {
+                ti = si;
+                si = x;
+            } else if (Number(data[x].properties.count) > Number(data[ti].properties.count)) {
+                ti = x;
+            }
+
+        }
     return (
         <div className='plain-div'>
             <h1> Active Places</h1>
@@ -11,10 +29,10 @@ function HighActivity() {
 
             <div className='top-3-card'>
                 <div className='device'>
-                    {data[11].properties.device}
+                    {data[fi].properties.device}
                 </div>
                 <div className='count'>
-                    {data[11].properties.count}
+                    {data[fi].properties.count}
                 </div>
                 <p>Connections</p>
             </div>
@@ -22,11 +40,11 @@ function HighActivity() {
             <div className='top-3-card'>
 
                 <div className='device'>
-                    {data[4].properties.device}
+                    {data[si].properties.device}
                 </div>
 
                 <div className='count'>
-                    {data[4].properties.count}
+                    {data[si].properties.count}
                 </div>
 
                 <p>Connections</p>
@@ -35,10 +53,10 @@ function HighActivity() {
 
             <div className='top-3-card'>
                 <div className='device'>
-                    {data[6].properties.device}
+                    {data[ti].properties.device}
                 </div>
                 <div className='count'>
-                    {data[6].properties.count}
+                    {data[ti].properties.count}
                 </div>
                 <p>Connections</p>
             </div>

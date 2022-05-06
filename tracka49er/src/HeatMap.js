@@ -66,15 +66,19 @@ function HeatForm() {
     const handleSubmit = event => {
 
         event.preventDefault();
-        alert(`Your state values: \n 
-                hour: ${hour} \n 
+        alert(`Your state values: \n
+                hour: ${hour} \n
                 day: ${day} \n
                 You can replace this alert with your process`);
         try {
             let test = 1
             let url = 'http://localhost:8080/active5?fhour=' + hour + '&fdow=' + day
             let response = JSON.parse(httpGet(url));
+           //let response1 = JSON.parse(httpGet(url1));
+
+
             for (let x = 0; x < locData.features.length; x++) {
+
                 //console.log(response);
                 if (response[locData.features[x].properties.device]) {
                     locData.features[x].properties.count = response[locData.features[x].properties.device];
@@ -84,15 +88,16 @@ function HeatForm() {
             console.error(error);
         }
 
+
         setHour(event.target.value)
     };
 
 
 
     return (
-        <div className='main-div'>
 
-            <h3>Campus Wifi Usage Heat Map</h3>
+
+        <div className='main-div'>
 
             <form onSubmit={handleSubmit}>
 

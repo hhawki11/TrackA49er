@@ -7,7 +7,7 @@ function httpGet(theUrl) {
   return xmlHttp.responseText;
 }
 
-function LAForm() {
+function NetworkForm() {
     const [day, setDay] = useState('')
     const [hour, setHour] = useState('')
     const setBUTTON = useState('')
@@ -34,7 +34,7 @@ function LAForm() {
               let response = "";
       try {
           let test = 1
-          let url = 'http://localhost:8080/active2?fhour=' + hour + '&fdow=' + day
+          let url = 'http://localhost:8080/active11?fhour=' + hour + '&fBuilding=' + day
           let response = httpGet(url);
           response1 = response;
 
@@ -88,8 +88,8 @@ document.getElementById('networkTest').innerHTML = response;
 
                   </select>
 
-                  <label for="fdow">Enter Day of Week:</label><br />
-                  <input type="Day" name="Day" placeholder="" onChange={handleDayChange} value={day} /><br />
+                  <label for="fdow">Enter Building:</label><br />
+                  <input type="Day" name="Day" placeholder="Enter Building" onChange={handleDayChange} value={day} /><br />
 
                   <button type="submit" onChange={handleBUTTON}>Submit</button>
               </div>
@@ -105,4 +105,4 @@ document.getElementById('networkTest').innerHTML = response;
   );
 }
 
-export default LAForm;
+export default NetworkForm;

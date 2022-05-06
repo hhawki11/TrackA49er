@@ -3,6 +3,8 @@ import HeatForm from './HeatMap.js';
 import "leaflet/dist/leaflet.css";
 import About from './about.js';
 import Home from './home.js';
+import Network from './Network.js';
+import Ad from './Ad.js';
 import {
     BrowserRouter as Router,
     Routes,
@@ -40,6 +42,12 @@ function App() {
                     <li>
                         <Link className='pages' to='/highactivity'>High Activity Areas</Link>
                     </li>
+                    <li>
+                                            <Link className='pages' to='/Network'>Network Information</Link>
+                                        </li>
+                                        <li>
+                                                                <Link className='pages' to='/Ad'>Advertising</Link>
+                                                            </li>
                 </ul>
 
 
@@ -49,6 +57,9 @@ function App() {
                     <Route exact path='/about' element={<About />}></Route>
                     <Route exact path='/lowactivity' element={<LowActivity />}></Route>
                     <Route exact path='/highactivity' element={<HighActivity />}></Route>
+                    <Route exact path='/Network' element={<Network />}></Route>
+                    <Route exact path='/Ad' element={<Ad />}></Route>
+
                 </Routes>
             </div>
         </Router>
