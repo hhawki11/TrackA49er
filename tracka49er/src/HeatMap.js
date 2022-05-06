@@ -96,8 +96,8 @@ function HeatForm() {
 
     return (
 
-
         <div className='main-div'>
+The size of the circle indicates the activity! The bigger thd circle the more 49ers!
 
             <form onSubmit={handleSubmit}>
 
