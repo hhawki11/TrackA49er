@@ -219,3 +219,8 @@ select {
 .github {
     max-width: 50px;
 }
+
+.about {
+    margin-bottom: 70px;
+    overflow: hidden;
+}
