@@ -68,7 +68,7 @@ function App() {
                         </a>
                       
                       </div>
-                      <div style={{marginTop: '13px'}}>© Copyright Group 21 UNCC 2022</div>
+                      <div style={{marginTop: '13px', marginLeft: '5px'}}>© Copyright Group 21 UNCC 2022</div>
                       <div className='uncc'>
                         <a href='https://www.charlotte.edu/' target='_blank'>
                           <img src={uncc} alt="Github" style={{maxHeight: '70px', maxWidth: '70px'}} />

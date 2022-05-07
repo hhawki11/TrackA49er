@@ -54,7 +54,7 @@ document.getElementById('networkTest').innerHTML = response;
 
 
           <form onSubmit={handleSubmit}>
-
+            <h2>Need a place to study? Find the perfect time and place</h2>   
               <div className='side-panel'>
 
 

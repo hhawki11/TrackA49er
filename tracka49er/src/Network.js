@@ -54,7 +54,7 @@ document.getElementById('networkTest').innerHTML = response;
 
 
           <form onSubmit={handleSubmit}>
-
+            <h2>Find relevant network information for any building on campus</h2>
               <div className='side-panel'>
 
 
@@ -86,7 +86,7 @@ document.getElementById('networkTest').innerHTML = response;
                       <option value="22">10 PM</option>
                       <option value="23">11 PM</option>
 
-                  </select>
+                  </select><br />
 
                   <label for="fdow">Enter Building:</label><br />
                   <input type="Day" name="Day" placeholder="Enter Building" onChange={handleDayChange} value={day} /><br />
