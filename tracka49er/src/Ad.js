@@ -38,29 +38,21 @@ function Ad() {
           let response = httpGet(url);
           response1 = response;
 
-document.getElementById('networkTest').innerHTML = response;
+          document.getElementById('networkTest').innerHTML = response;
               console.log(response);
-
       } catch (error) {
           console.error(error);
       }
-
       setHour(event.target.value)
   };
 
-
   return (
       <div className='NetworkCss'>
-
-
           <form onSubmit={handleSubmit}>
-<h2>Use this Information to find the perfect advertising spot!</h2>
+              <h2>Use this Information to find the perfect advertising spot!</h2>
               <div className='side-panel'>
-
-
                   <label for="fhour">Select a Time:</label><br />
                   <select name="fhour" value={hour} onChange={handleHourChange} defaultValue={0}>
-
                       <option value="0">12 AM</option>
                       <option value="1">1 AM</option>
                       <option value="2">2 AM</option>
@@ -85,7 +77,6 @@ document.getElementById('networkTest').innerHTML = response;
                       <option value="21">9 PM</option>
                       <option value="22">10 PM</option>
                       <option value="23">11 PM</option>
-
                   </select><br />
 
                   <label for="fdow">Enter Building:</label><br />
@@ -93,13 +84,9 @@ document.getElementById('networkTest').innerHTML = response;
 
                   <button type="submit" onChange={handleBUTTON}>Submit</button>
               </div>
-
-
-
           </form>
 
           <div id = 'networkTest'>
-
 
           </div>
       </div>

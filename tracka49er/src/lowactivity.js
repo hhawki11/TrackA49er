@@ -38,9 +38,8 @@ function LAForm() {
           let response = httpGet(url);
           response1 = response;
 
-document.getElementById('networkTest').innerHTML = response;
+          document.getElementById('networkTest').innerHTML = response;
               console.log(response);
-
       } catch (error) {
           console.error(error);
       }
@@ -93,12 +92,8 @@ document.getElementById('networkTest').innerHTML = response;
 
                   <button type="submit" onChange={handleBUTTON}>Submit</button>
               </div>
-
-
-
           </form>
           <div id = 'networkTest'>
-
 
           </div>
       </div>

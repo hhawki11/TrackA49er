@@ -21,8 +21,6 @@ function App() {
     return (
         <Router>
             <div>
-
-
                 <ul>
                     <li className='logo'>
                         <Link className='logo' to='/'>TrackA49er</Link>
@@ -50,7 +48,6 @@ function App() {
                     </li>
                 </ul>
 
-
                 <Routes>
                     <Route exact path='/' element={<Home />}></Route>
                     <Route exact path='/HeatMap' element={<HeatForm />}></Route>
@@ -59,22 +56,23 @@ function App() {
                     <Route exact path='/highactivity' element={<HighActivity />}></Route>
                     <Route exact path='/Network' element={<Network />}></Route>
                     <Route exact path='/Ad' element={<Ad />}></Route>
-
                 </Routes>
                   <div className='footer'>
+
                       <div className='github'>
                         <a href='https://github.com/hhawki11/TrackA49er' target='_blank'>
                           <img src={github} alt="Github" style={{maxHeight: '50px', maxWidth: '50px'}} />
                         </a>
-                      
                       </div>
+
                       <div style={{marginTop: '13px', marginLeft: '5px'}}>© Copyright Group 21 UNCC 2022</div>
+                      
                       <div className='uncc'>
                         <a href='https://www.charlotte.edu/' target='_blank'>
                           <img src={uncc} alt="Github" style={{maxHeight: '70px', maxWidth: '70px'}} />
                         </a>
                       </div>
-                      
+
                   </div>
             </div>
         </Router>

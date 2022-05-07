@@ -6,7 +6,6 @@ function About() {
         <div className='about'>
             <h1>About Us</h1>
 
-
             <div>
                 <div className='strip'>
                     We are a group of computer science students at the University of North Carolina at Charlotte.
@@ -34,7 +33,6 @@ function About() {
                     <p>If you want to find a quiet place to relax during any time, the Low Activity page lets you choose the time and day of the week for that purpose.</p>
                 </div>
             </div>
-
         </div>
     );
 }

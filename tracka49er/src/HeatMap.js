@@ -29,14 +29,11 @@ function HeatMap() {
                             {data.properties.device} <br /> {data.properties.count}
                         </Popup>
                     </CircleMarker>
-
                 ))}
-
             </MapContainer>
         </div>
     );
 }
-
 
 function httpGet(theUrl) {
     var xmlHttp = new XMLHttpRequest();
@@ -50,7 +47,6 @@ function HeatForm() {
     const [hour, setHour] = useState('')
     const setBUTTON = useState('')
 
-
     const handleDayChange = event => {
         setDay(event.target.value)
     };
@@ -61,7 +57,7 @@ function HeatForm() {
 
     const handleBUTTON = event => {
         setBUTTON(event.target.value)
-    }
+    };
 
     const handleSubmit = event => {
 
@@ -88,21 +84,16 @@ function HeatForm() {
             console.error(error);
         }
 
-
         setHour(event.target.value)
     };
 
-
-
     return (
-
         <div className='main-div'>
-The size of the circle indicates the activity! The bigger thd circle the more 49ers!
+            The size of the circle indicates the activity! The bigger the circle the more 49ers!
 
             <form onSubmit={handleSubmit}>
 
                 <div className='side-panel'>
-
 
                     <label for="fhour">Select a Time:</label><br />
                     <select name="fhour" value={hour} onChange={handleHourChange} defaultValue={0}>
@@ -139,9 +130,6 @@ The size of the circle indicates the activity! The bigger thd circle the more 49
 
                     <button type="submit" onChange={handleBUTTON}>Submit</button>
                 </div>
-
-
-
             </form>
             <div>
                 <HeatMap />

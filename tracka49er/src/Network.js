@@ -48,15 +48,12 @@ document.getElementById('networkTest').innerHTML = response;
       setHour(event.target.value)
   };
 
-
   return (
       <div className='NetworkCss'>
-
 
           <form onSubmit={handleSubmit}>
             <h2>Find relevant network information for any building on campus</h2>
               <div className='side-panel'>
-
 
                   <label for="fhour">Select a Time:</label><br />
                   <select name="fhour" value={hour} onChange={handleHourChange} defaultValue={0}>
@@ -93,12 +90,8 @@ document.getElementById('networkTest').innerHTML = response;
 
                   <button type="submit" onChange={handleBUTTON}>Submit</button>
               </div>
-
-
-
           </form>
           <div id = 'networkTest'>
-
 
           </div>
       </div>
