@@ -1,8 +1,12 @@
 import React from 'react';
+import poster from './poster.png'
+
 
 function Home() {
     return (
-        <div> idk what to put here :/ </div>
+        <>
+            <img className='poster' src={poster} alt="Poster" style={{maxHeight: '57%', maxWidth: '57%', marginLeft: 'auto', marginRight: 'auto', display: 'block'}} />
+        </>
     );
 } 
 
